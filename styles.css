@@ -1,6 +1,9 @@
 body {
     background-color: lightgray;
 }
+.row{
+    margin-left: 5em;
+}
 
 h3{
     text-align: left;
@@ -16,17 +19,26 @@ h4{
     color: rgb(32, 177, 177);
 }
 
-.ttle{
+.left_half{
     box-sizing: border-box;
     widows: 10px;
-height:auto;
-padding:10px;
-min-height:150px;
-background-color: white;
-position:relative;
-	}
+    height:auto;
+    padding:10px;
+    min-height:400px;
+    background-color: white;
+    }
+    
+.right_half{
+    box-sizing: border-box;
+    widows: 10px;
+    height:auto;
+    padding:10px;
+    min-height:400px;
+    background-color: white;
+    position:relative;
+        }
 
-.image_one{
+.img_one{
     
     width: 33%;
     float: left;
@@ -37,6 +49,38 @@ position:relative;
     margin-right: 20px;;
 
 } 
+
+/* .img_box{
+align-items: stretch;
+} */
+
+.img{
+    width: 45%;
+}
+.img_1{
+    position: relative;
+    top: 0;
+    left: 0;
+    } 
+
+.img_2{
+    position: relative;
+    top: 0;
+    right: 0;
+    } 
+
+.img_3{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    } 
+
+.img_4{
+    position: relative;
+    bottom: 0;
+    right: 0;
+    } 
+
 p {
     float: right;
     display: block;

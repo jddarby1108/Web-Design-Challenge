@@ -26,19 +26,22 @@ background-color: white;
 position:relative;
 	}
 
-/* img{
+.image_one{
     
-    width: 15%;
-
-    /* Area between the padding and the margin */
-    border: 3px; 
-    border-style: ridge;
-    border-color: #F25E5E;
-
+    width: 33%;
+    float: left;
     /* Area between the element and the border */
-    padding: 4.4%;
-
+    
+    /* float: left; */
     /* Area between the outer edge of the border and other elements */
-    margin: 4.4%;
+    margin-right: 20px;;
 
-} */
+} 
+p {
+    float: right;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}

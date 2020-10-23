@@ -1,6 +1,27 @@
 body {
     background-color: lightgray;
 }
+
+.table{ 
+    align-content: center;
+    border-collapse: collapse; 
+    width: 80%; 
+    padding-top: 2em;
+} 
+    
+th, td { 
+    text-align: left; 
+    padding: 5px; 
+    padding-top: 7px;
+} 
+    
+tr:nth-child(even) { 
+    background-color: rgba(158, 160, 158, 0.842); 
+} 
+
+
+
+
 .row{
     margin-left: 5em;
 }
@@ -36,7 +57,16 @@ h4{
     min-height:400px;
     background-color: white;
     position:relative;
-        }
+    }
+
+.data_table_background{
+    box-sizing: border-box;
+    widows: 10px;
+    height:auto;
+    padding:10px;
+    min-height:400px;
+    background-color: white;
+    }
 
 .img_one{
     
